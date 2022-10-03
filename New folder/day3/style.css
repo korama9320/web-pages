@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav_bar ul {
+  display: flex;
+  justify-content: right;
+}
+.nav_bar ul li {
+  list-style: none;
+  padding: 10px;
+}
+.nav_bar ul li a {
+  text-decoration: none;
+  color: #8f9494;
+}
+.cont {
+  width: 100%;
+  background-color: #31353b;
+  display: flex;
+  justify-content: center;
+}
+#st {
+  border-left: 3px solid rgb(151, 139, 139);
+  color: white !important;
+  margin: 5px;
+}
+#st a {
+  color: white;
+}
+.cont .container h4 {
+  color: white;
+}
+.name {
+  margin: auto 0;
+  color: #8f9494;
+  display: inline-block;
+}
+.second {
+  width: 100%;
+  height: 455px;
+  background-image: url("./img/image2.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+.second div {
+  width: 70%;
+  text-align: center;
+}
+.second h1 {
+  font-size: 60px;
+}
+.second button {
+  width: 100px;
+  height: 30px;
+  border: 0;
+  background-color: #007aff;
+  color: aliceblue;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.third1 {
+  display: flex;
+  justify-content: space-around;
+}
+.third {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  color: #212429;
+  text-align: center;
+}
+.third div {
+  width: 30%;
+  margin: 15px;
+}
+.fa-solid {
+  font-size: 50px;
+  margin: 5px;
+}
+.third div p {
+  margin: 10px;
+}
+.fourth {
+  background-image: url("./img/lights.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+.fourth h1 {
+  font-size: 60px;
+  margin: 10px;
+}
+.fifth img {
+  width: 50%;
+}
+.fifth {
+  display: flex;
+  width: 80%;
+}
+.fifth1 {
+  display: flex;
+  justify-content: space-around;
+}
+.fifth div {
+  margin: auto 0;
+}
+.fifth div button {
+  width: 100px;
+  height: 30px;
+  border: 2px #b64851 solid;
+  background-color: aliceblue;
+  color: #b64851;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.sixth {
+  background-image: linear-gradient(#11131683, #1113168a), url(./img/media.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: aliceblue;
+  font-size: 30px;
+}
+.seventh1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.seventh1 h1 {
+  font-size: 60px;
+}
+.seventh img {
+  width: 30%;
+}
+.seventh {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.last1 {
+  background-color: #353a40;
+  height: 200px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.last {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  text-align: center;
+  color: aliceblue;
+}
+.last h1 {
+  font-size: 40px;
+  margin: 10px;
+}
+input[type="text"] {
+  width: 150px;
+  height: 25px;
+  margin: 10px;
+}
+input[type="submit"] {
+  width: 100px;
+  height: 30px;
+  border: 0;
+  background-color: #007aff;
+  color: aliceblue;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
